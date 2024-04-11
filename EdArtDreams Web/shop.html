@@ -45,20 +45,10 @@
  
  
  
-    <div class="cart-btn">
-      <span class="nav-icon">
-        <i class="ri-shopping-cart-line"></i>
-      </span>
-      <div class="cart-items">0</div>
-    </div>
-  
 
-<div id="mobile">
-  <a href="cart.html" ><i class="fal fa-shopping-bag"></i>
-    <span class="quantity">0</span>
-  </a>
-  <i id="bar" class="fas fa-outdent"></i>
-</div>
+
+
+
         </section>
 
 <section id="hero">
@@ -149,8 +139,20 @@
   
           
       </div >
+
+
+      <div id="floating-button">    
+        <div class="cart-btn">
+      <span class="nav-icon">
+        <i class="ri-shopping-cart-line"></i>
+      </span>
+      <div class="cart-items">0</div>
+        </div>
+    </div> 
+
+
       
-    
+
       
     
     <div class="coypright">
@@ -166,6 +168,7 @@
       </body>
   
   </html>
+
   
 
 
@@ -219,44 +222,7 @@
 <script type="module" src="./src/app.js"></script>
 
 
-<script>
-  // Make the page draggable
-  dragElement(document.getElementById("draggableContainer"));
 
-  function dragElement(elmnt) {
-      var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-      elmnt.onmousedown = dragMouseDown;
 
-      function dragMouseDown(e) {
-          e = e || window.event;
-          e.preventDefault();
-          // get the mouse cursor position at startup:
-          pos3 = e.clientX;
-          pos4 = e.clientY;
-          document.onmouseup = closeDragElement;
-          // call a function whenever the cursor moves:
-          document.onmousemove = elementDrag;
-      }
-
-      function elementDrag(e) {
-          e = e || window.event;
-          e.preventDefault();
-          // calculate the new cursor position:
-          pos1 = pos3 - e.clientX;
-          pos2 = pos4 - e.clientY;
-          pos3 = e.clientX;
-          pos4 = e.clientY;
-          // set the element's new position:
-          elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-          elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-      }
-
-      function closeDragElement() {
-          // stop moving when mouse button is released:
-          document.onmouseup = null;
-          document.onmousemove = null;
-      }
-  }
-</script>
 
 

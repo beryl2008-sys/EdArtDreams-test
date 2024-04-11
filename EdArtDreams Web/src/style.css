@@ -87,7 +87,7 @@ header {
   color: #849a65;
 }
 
-.cart-btn {
+#floating-button.cart-btn {
   position: relative;
   cursor: pointer;
   color: var(--mainBlack);
@@ -239,7 +239,7 @@ header {
   padding-bottom: 2rem;
   box-shadow: var(--mainShadow);
   border-radius: 8px;
-  overflow: hidden;
+  
 }
 
 .img-container {
@@ -297,6 +297,28 @@ header {
   opacity: 0.8;
 }
 
+
+
+#floating-button {
+  width: 60px;
+  height: 60px;
+  background-color: #007bff; /* Button color */
+  border-radius: 50%; /* Makes the button round */
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3); /* Adds a shadow */
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Button text color */
+  font-size: 24px; /* Button text size */
+}
+
+#floating-button:hover {
+  background-color: #0056b3; /* Button color on hover */
+}
 
 
 
@@ -463,7 +485,7 @@ header {
 /*================$ Media Query $================*/
 @media screen and (min-width: 320px) {
   .nav-list li {
-    display: none;
+    display: flex;
   }
 
   .nav-center {
