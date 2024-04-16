@@ -376,7 +376,7 @@ button.normal{
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(https://i.postimg.cc/vZ6YLxDG/b17.jpg);
+  background-image: url(fp\ ad.png);
   min-width: 580px;
   height: 40vh;
   background-position: center;
@@ -385,7 +385,8 @@ button.normal{
 }
 
 #sm-banner .banner-box2{
-  background-image: url(https://i.postimg.cc/gJ7FHxHv/b10.jpg)
+  background-image: url(fp\ ad\ 2.png)
+  
 }
 
 #sm-banner{
@@ -413,8 +414,8 @@ button.normal{
   padding-bottom: 16px;
 }
 
-button.white{
-  color: #000;
+a.white{
+  color: #ffffff;
   padding: 15px 30px;
   font-weight: 400;
   font-size: 14px;
@@ -423,10 +424,12 @@ button.white{
   border: 1px solid #fff;
   outline: none;
   transition: 0.2s;
-  cursor: pointer
+  cursor: pointer;
+  margin-top: 170px;
+  text-decoration: none;
 }
 
-#sm-banner .banner-box:hover button{
+#sm-banner .banner-box:hover a{
   background-color: #088178;
   color: #fff;
   border: 1px solid #088178;

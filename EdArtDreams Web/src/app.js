@@ -33,7 +33,10 @@ class Products {
   getProducts() {
     return productsData;
   }
+  
 }
+
+
 
 /*================== Display Products =================*/
 const productsDOM = document.querySelector('.products-center'),

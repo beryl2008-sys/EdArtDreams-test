@@ -165,7 +165,7 @@ display: none;
 
 #hero h4{
   padding-bottom: 15px;
-  color: rgb(0, 0, 0);
+  color: #41aaa3;
  
 }
 
@@ -180,6 +180,10 @@ display: none;
   color: #7cd1cb;
   border: 0;
   padding: 14px 80px 14px 65px;
+}
+
+#text h2{
+  color: #41aaa3;
 }
 
 #feature .fe-box{
