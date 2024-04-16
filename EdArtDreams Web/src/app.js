@@ -17,7 +17,7 @@ backDrop.addEventListener('click', closeModal);
 function showModal() {
   backDrop.style.display = 'block';
   cartModal.style.opacity = '1';
-  cartModal.style.position = 'absolute';
+  cartModal.style.position = 'fixed';
   cartModal.style.top = '21%';
 }
 

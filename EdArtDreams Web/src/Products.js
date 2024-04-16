@@ -107,4 +107,46 @@ export const productsData = [
     price: 350,
     imageUrl: "./images/350$_classic-ottoman-base.jpg",
   },
+
+  {
+    id: 15,
+    title: "Classic Ottoman Base",
+    price: 350,
+    imageUrl: "./images/350$_classic-ottoman-base.jpg",
+  },
+
+  {
+    id: 15,
+    title: "Classic Ottoman Base",
+    price: 350,
+    imageUrl: "./images/350$_classic-ottoman-base.jpg",
+  },
+
+  {
+    id: 15,
+    title: "Classic Ottoman Base",
+    price: 350,
+    imageUrl: "./images/350$_classic-ottoman-base.jpg",
+  },
+
+  {
+    id: 15,
+    title: "Classic Ottoman Base",
+    price: 350,
+    imageUrl: "./images/350$_classic-ottoman-base.jpg",
+  },
+
+  {
+    id: 15,
+    title: "Classic Ottoman Base",
+    price: 350,
+    imageUrl: "./images/350$_classic-ottoman-base.jpg",
+  },
+
+  {
+    id: 15,
+    title: "Classic Ottoman Base",
+    price: 350,
+    imageUrl: "./images/350$_classic-ottoman-base.jpg",
+  },
 ];
