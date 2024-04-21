@@ -139,7 +139,7 @@ display: none;
 }
 
 #hero{
-  background-image: url("/img/shop.header.png");
+  background-image: url("/EdArtDreams-test/img/shop.header.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -176,7 +176,7 @@ display: none;
   }
 
 #hero a{
-  background-image: url(/img/shop.header.png);
+  background-image: url(/EdArtDreams-test/img/shop.header.png);
   background-color: transparent;
   color: #ff0000;
   border: 0;
@@ -376,7 +376,7 @@ button.normal{
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(/img/fp\ ad.png);
+  background-image: url(/EdArtDreams-test/img/fp\ ad.png);
   min-width: 580px;
   height: 40vh;
   background-position: center;
@@ -385,7 +385,7 @@ button.normal{
 }
 
 #sm-banner .banner-box2{
-  background-image: url(/img/fp\ ad\ 2.png)
+  background-image: url(/EdArtDreams-test/img/fp\ ad\ 2.png)
   
 }
 
