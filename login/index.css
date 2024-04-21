@@ -139,7 +139,7 @@ display: none;
 }
 
 #hero{
-  background-image: url("home.header.png");
+  background-image: url("/img/home.header.png");
   height: 90vh;
   width: 100%;
   background-size: cover;
@@ -376,7 +376,7 @@ button.normal{
   justify-content: center;
   align-items: flex-start;
   text-align: center;
-  background-image: url(fp\ ad.png);
+  background-image: url(/img/fp\ ad.png);
   min-width: 580px;
   height: 40vh;
   background-position: center;
@@ -385,7 +385,7 @@ button.normal{
 }
 
 #sm-banner .banner-box2{
-  background-image: url(fp\ ad\ 2.png)
+  background-image: url(/img/fp\ ad\ 2.png)
   
 }
 
